@@ -27,12 +27,12 @@ function setup(){
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
-    pig1 = new Pig(810, 350);
+    pig1 = new Dad(810, 350);
     log1 = new Log(810,260,300, PI/2);
 
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
-    pig3 = new Pig(810, 220);
+    pig3 = new Mom(810, 220);
 
     log3 =  new Log(810,180,300, PI/2);
 
@@ -40,7 +40,7 @@ function setup(){
     log4 = new Log(760,120,150, PI/7);
     log5 = new Log(870,120,150, -PI/7);
 
-    bird = new Bird(200,50);
+    bird = new Me(200,50);
 
     //log6 = new Log(230,180,80, PI/2);
     slingshot = new SlingShot(bird.body,{x:200, y:50});
