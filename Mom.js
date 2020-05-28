@@ -25,5 +25,6 @@ class Mom extends BaseClass {
       score++;
     }
   }
+}
 
 
