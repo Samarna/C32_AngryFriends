@@ -1,6 +1,6 @@
 class Me extends BaseClass {
   constructor(x,y){
-    super(x,y,50,50);
+    super(x,y,20,20);
     this.image = loadImage("sprites/IMG_20200502_163725.png");
     this.smokeImage = loadImage("sprites/smoke.png");
     this.trajectory =[];
