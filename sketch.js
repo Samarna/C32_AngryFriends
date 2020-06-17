@@ -39,7 +39,7 @@ function setup(){
     log3 =  new Log(810,180,300, PI/2);
 
     box5 = new Box(810,160,70,70);
-    log4 = new Log(760,120,150, PI/7);
+     log4 = new Log(760,120,150, PI/2);
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Me(200,50);
